@@ -46,7 +46,7 @@ if(gameState===1){
     console.log("hello");
     endgame = createSprite(600,400,200,200);
     endgame.addImage(gameOverImg);
-
+  bg.visible=false;
   }
 }
 function reset(){
